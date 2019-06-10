@@ -1,0 +1,89 @@
+html {
+    height: 100;
+}
+body {
+    min-height: 100%;
+    position: relative;
+}
+#main-content {
+    float: none;
+    /* height: 600px; */
+    margin-bottom: 10%;
+    background-color: #ffffff;
+    padding: 20px;
+    
+
+}
+    #divider {
+    border: solid #cccccc 1px;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.portfolio {
+    /* padding: 20px; */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+   
+   
+}
+.project-title {
+    position: absolute;
+    bottom: 7%;
+    /* left: 0; */
+    background: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    background:#666666;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: solid #4aaaa5 4px;
+    margin-top: -32px;
+
+
+}
+#portfolio-section a {
+    display: inline-block;
+    position: relative;
+    margin: 20px 30px 20px 0;
+  
+}
+
+
+.container {
+    background: none;
+    width: 800px;
+}
+@media screen (max-width: 980px) {
+
+}
+@media only screen and (max-width: 768px){
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        width: 90%;
+        /* margin-bottom: 6%; */
+    }
+    a {
+        width: 100%;
+    }
+    .portfolio {
+        width: 100%;
+    }
+    .footer {
+        /* margin-top: -32px; */
+    }
+}

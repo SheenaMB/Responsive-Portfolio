@@ -1,0 +1,40 @@
+.container {
+    width: 60%;
+    height: 400px;
+}
+#main-content {
+    float: none;
+    height: 200px;
+
+}
+#divider {
+    border: solid #cccccc 1px;
+    margin-bottom: 18px;
+    width: 100%;
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact {
+    color: #4aaaa5;
+}
+
+#contact-form-div {
+    /* padding: 10px; */
+}
+
+input, textarea {
+    margin: 5px 0 20px 0 ;
+    padding: 5px;
+
+}
+
+#button {
+    color: white;
+    background: #4aaaa5;
+    width: 70px;
+    padding: 5px;
+
+}
