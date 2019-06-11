@@ -124,12 +124,19 @@ p{
 
 }
 @media screen (max-width: 980px) {
-
+    nav {
+        display: flex;
+    }
 }
 @media only screen and (max-width: 768px){
     .container {
         width: 95%;
     }
+    nav {
+        display: flex;
+        
+    }
+   
 }
 
 @media only screen and (max-width: 640px) {
